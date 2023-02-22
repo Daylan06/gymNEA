@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <AnchorPane prefHeight="568.0" prefWidth="284.0" style="-fx-background-color: #3fa3dd;">
+         <children>
+            <ImageView fitHeight="211.0" fitWidth="218.0" layoutX="36.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../weight.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="14.0" layoutY="40.0" text="Gym Sign UP System" textAlignment="CENTER" textFill="WHITE" underline="true">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="tf_username" prefHeight="578.0" prefWidth="518.0">
+         <children>
+            <Label layoutX="62.0" layoutY="122.0" text="Username">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="65.0" layoutY="208.0" text="Password">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_usernameSU" layoutX="211.0" layoutY="122.0" prefHeight="32.0" prefWidth="223.0" />
+            <PasswordField fx:id="pf_password" layoutX="211.0" layoutY="205.0" prefHeight="32.0" prefWidth="223.0" />
+            <Button fx:id="button_signup" layoutX="158.0" layoutY="319.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="158.0" style="-fx-background-color: #3fa3dd;" text="Sign Up" textFill="WHITE" />
+            <Label layoutX="48.0" layoutY="444.0" text="Already a member?">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Button fx:id="button_log_in" layoutX="288.0" layoutY="445.0" mnemonicParsing="false" style="-fx-background-color: #0000FF;" text="Log In! " textFill="WHITE" underline="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <RadioButton fx:id="rb_radiobutton" layoutX="182.0" layoutY="277.0" mnemonicParsing="false" text="all fields complete?" />
+         </children></AnchorPane>
+   </children>
+</HBox>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gymnea.Controller">
+   <children>
+      <AnchorPane prefHeight="570.0" prefWidth="284.0" style="-fx-background-color: #3fa3dd;">
+         <children>
+            <ImageView fitHeight="211.0" fitWidth="218.0" layoutX="36.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../weight.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="27.0" layoutY="44.0" text="Gym Login System" textFill="WHITE" underline="true">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="570.0" prefWidth="520.0">
+         <children>
+            <Label layoutX="51.0" layoutY="160.0" text="Username:">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="54.0" layoutY="232.0" text="Password:">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_username" layoutX="201.0" layoutY="160.0" prefHeight="32.0" prefWidth="222.0" promptText="Username ">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="pf_password" layoutX="201.0" layoutY="232.0" prefHeight="32.0" prefWidth="222.0" promptText="Password">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </PasswordField>
+            <ImageView fitHeight="126.0" fitWidth="133.0" layoutX="186.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_1978396.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="button_login" layoutX="149.0" layoutY="342.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="211.0" style="-fx-background-color: #3fa3dd; -fx-cursor: hand;" text="Login" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Label layoutX="89.0" layoutY="440.0" text="Not a member?">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Button fx:id="button_sign_up" layoutX="274.0" layoutY="441.0" mnemonicParsing="false" style="-fx-background-color: #0000ff; -fx-cursor: hand;" text="Sign Up!" textFill="WHITE" underline="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
